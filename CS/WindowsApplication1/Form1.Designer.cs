@@ -26,17 +26,14 @@ namespace WindowsApplication1 {
             this.components = new System.ComponentModel.Container();
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
             this.productsBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.nwindDataSet = new WindowsApplication1.nwindDataSet();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.colProductName = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colUnitPrice = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colUnitsOnOrder = new DevExpress.XtraGrid.Columns.GridColumn();
             this.button1 = new System.Windows.Forms.Button();
-            this.productsTableAdapter = new WindowsApplication1.nwindDataSetTableAdapters.ProductsTableAdapter();
             this.repositoryItemProgressBar1 = new WindowsApplication1.MyProgressBarControl.RepositoryItemMyProgressBarControl();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.productsBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nwindDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemProgressBar1)).BeginInit();
             this.SuspendLayout();
@@ -57,12 +54,6 @@ namespace WindowsApplication1 {
             // productsBindingSource
             // 
             this.productsBindingSource.DataMember = "Products";
-            this.productsBindingSource.DataSource = this.nwindDataSet;
-            // 
-            // nwindDataSet
-            // 
-            this.nwindDataSet.DataSetName = "nwindDataSet";
-            this.nwindDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // gridView1
             // 
@@ -105,10 +96,6 @@ namespace WindowsApplication1 {
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // productsTableAdapter
-            // 
-            this.productsTableAdapter.ClearBeforeFill = true;
-            // 
             // repositoryItemProgressBar1
             // 
             this.repositoryItemProgressBar1.Name = "repositoryItemProgressBar1";
@@ -125,7 +112,6 @@ namespace WindowsApplication1 {
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.productsBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nwindDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemProgressBar1)).EndInit();
             this.ResumeLayout(false);
@@ -137,9 +123,7 @@ namespace WindowsApplication1 {
         private DevExpress.XtraGrid.GridControl gridControl1;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
         private System.Windows.Forms.Button button1;
-        private nwindDataSet nwindDataSet;
         private System.Windows.Forms.BindingSource productsBindingSource;
-        private WindowsApplication1.nwindDataSetTableAdapters.ProductsTableAdapter productsTableAdapter;
         private DevExpress.XtraGrid.Columns.GridColumn colProductName;
         private DevExpress.XtraGrid.Columns.GridColumn colUnitPrice;
         private DevExpress.XtraGrid.Columns.GridColumn colUnitsOnOrder;
