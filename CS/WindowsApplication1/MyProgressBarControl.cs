@@ -48,7 +48,7 @@ namespace WindowsApplication1
             {
             }
 
-            public override DevExpress.XtraPrinting.IVisualBrick GetBrick(PrintCellHelperInfo info)
+            public override VisualBrick GetBrick(PrintCellHelperInfo info)
             {
                 Bitmap bmp = new Bitmap(info.Rectangle.Width, info.Rectangle.Height);
                 Graphics gr = Graphics.FromImage(bmp);
