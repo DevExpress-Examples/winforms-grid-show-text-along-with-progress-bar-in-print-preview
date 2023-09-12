@@ -4,7 +4,7 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 
-# WinForms Data Grid - Show progress along with a progress bar in the exported document
+# WinForms Data Grid - Show progress text along with a progress bar in the exported document
 
 This example creates a custom progress bar editor that can display its progress along with progress bar:
 
