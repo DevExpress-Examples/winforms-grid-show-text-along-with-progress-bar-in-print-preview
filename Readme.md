@@ -13,6 +13,7 @@ This example creates a custom progress bar editor that can display its progress 
 
 ## Files to Review
 
+* [MyProgressBarControl.cs](./CS/WindowsApplication1/MyProgressBarControl.cs) (VB: [MyProgressBarControl.vb](./VB/WindowsApplication1/MyProgressBarControl.vb))
 * [Form1.cs](./CS/WindowsApplication1/Form1.cs) (VB: [Form1.vb](./VB/WindowsApplication1/Form1.vb))
 
 
