@@ -6,7 +6,7 @@
 
 # WinForms Data Grid - Show progress text along with a progress bar in the exported document
 
-This example creates a custom progress bar editor that can display its progress along with progress bar:
+This example creates a custom progress bar editor that can display its progress along with a progress bar:
 
 ![](https://raw.githubusercontent.com/DevExpress-Examples/how-to-show-the-progressbars-text-along-with-the-progress-bar-in-the-exported-document-e20007/23.1.1%2B/media/winforms-grid-print-preview-with-progressbar.png)
 
