@@ -2,12 +2,7 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E20007)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
 
-* [Class1.cs](./CS/WindowsApplication1/Class1.cs) (VB: [Class1.vb](./VB/WindowsApplication1/Class1.vb))
-* [Form1.cs](./CS/WindowsApplication1/Form1.cs) (VB: [Form1.vb](./VB/WindowsApplication1/Form1.vb))
-<!-- default file list end -->
 # How to show the ProgressBar's text along with the progress bar in the exported document
 
 
